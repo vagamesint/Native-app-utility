@@ -1,5 +1,5 @@
 {
-  "name": "com.vagamesint.nativeapputilities",
+  "name": "com.vagamesint.nativeapputility",
   "version": "1.0.2",
   "displayName": "Native App Utility",
   "description": "This packeage contains Android and IOS native plugins.",
@@ -13,7 +13,7 @@
     "keyword3"
   ],
   "author": {
-    "name": "Unity",
+    "name": "Saurabh",
     "email": "unity@example.com",
     "url": "https://www.unity3d.com"
   }
