@@ -2,7 +2,11 @@
     "name": "IOS_Utility",
     "rootNamespace": "vagamesint.native_app_utility",
     "references": [],
-    "includePlatforms": [],
+    "includePlatforms": [
+        "Android",
+        "Editor",
+        "iOS"
+    ],
     "excludePlatforms": [],
     "allowUnsafeCode": false,
     "overrideReferences": false,
