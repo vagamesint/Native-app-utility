@@ -12,9 +12,7 @@ namespace vagamesint.native_app_utility
         private static extern void ShowAlert(string title, string message);
         [DllImport("__Internal")]
         private static extern void ShowToast(string message, double timer);
-    
 
-#endif
         public static void ShowAlertBox(string title, string message)
         {
             ShowAlert(title, message);
@@ -24,5 +22,6 @@ namespace vagamesint.native_app_utility
         {
             ShowToast("Some message...", 3.0);
         }
+#endif
     }
 }
