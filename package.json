@@ -1,6 +1,6 @@
 {
   "name": "com.vagamesint.nativeapputility",
-  "version": "1.0.6",
+  "version": "1.0.7",
   "displayName": "Native App Utility",
   "description": "This packeage contains Android and IOS native plugins.",
   "unity": "2019.1",
