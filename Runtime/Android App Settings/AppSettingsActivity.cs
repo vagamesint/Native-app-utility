@@ -17,13 +17,18 @@ public class AppSettingsActivity : MonoBehaviour, IDisposable
 
     private void OnEnable()
     {
-        m_GotoSettingsButton.onClick.AddListener(appSettings.Open);   
+        m_GotoSettingsButton.onClick.AddListener(Open);   
+    }
+
+    public void Open()
+    {
+        appSettings.Open();
     }
 
     private void OnDisable()
     {
         Dispose();
-        m_GotoSettingsButton.onClick.RemoveListener(appSettings.Open);
+        m_GotoSettingsButton.onClick.RemoveListener(Open);
     }
 
     public void Dispose()
