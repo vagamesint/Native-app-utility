@@ -1,7 +1,7 @@
 using System;
 using UnityEngine;
 
-namespace Android.Util
+namespace vagamesint.native_app_utility
 {
     public class PluginInitializer : IDisposable
     {

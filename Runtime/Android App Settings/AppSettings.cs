@@ -1,6 +1,6 @@
 using System;
 
-namespace Android.Util
+namespace vagamesint.native_app_utility
 {
     public class AppSettings : IDisposable
     {
